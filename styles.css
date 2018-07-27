@@ -1,0 +1,186 @@
+body {
+background-image:url(https://media2.giphy.com/media/xUbVzuNjpWe0E/giphy.gif);
+background-color:transparent;   
+}
+
+ /* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+
+  }
+/* Make the image responsive */
+.container img {
+  width:100%;
+  height:auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:#40b29d;
+  color: #26ffd7;
+  font-size: 30px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color:transparent;
+  text-shadow: 2px 2px #40b29d;
+} 
+
+h1 {
+text-align:center;
+font-family:fixedsys; 
+color:#00f91d;
+font-size:55px;
+text-shadow: 2px 2px #20bc32;  
+}    
+    
+h2 {
+font-size:24px;
+color:#10ed5a;  
+}
+
+h3 {
+font-size:24px;
+color:#10ed5a;
+}
+
+h6 {
+font-size:40px;
+color:#ed1070;  
+align-self:center;  
+}
+
+aside { 
+ align-self:center;
+ font-size:22px;
+ font-family:engravers mt;
+ color:#00f91d;
+ text-decoration:underline;
+ text-decoration-color:#00f9f1;
+ page-break-before:always;    
+}
+
+img{
+outline-style:solid;
+outline-color:#00f9f1;
+float:inherit; 
+max-width: 100%;
+height:auto;  
+}
+
+
+div{
+font-family:palatino linotype;  
+color:#c10919;
+}
+
+article{
+color:#ff3ac4;
+}
+
+section{
+font-family: lucida console;
+color:#10edae; 
+}
+
+label{
+font-size: 20px; 
+color:#b9ed10;  
+}
+
+select{
+color:#ed1010;
+font-size:23px;
+font-family:fantasy;
+align-items:stretch; 
+}
+
+nav{
+text-align:right;  
+}
+
+active{
+ background-color: #4CAF50;
+ color: white;
+}
+
+li{
+display: inline;
+  float: center;
+}
+
+a{
+float:inherit; 
+display: inline;
+padding: 10px;
+background-color: transparent;
+font-size:25px;
+font-family:fantasy;
+align-items:stretch;
+color:#4ff7ca;  
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-decoration-line:none;  
+text-shadow: 2px 2px #57c6a9;
+text-align:center;  
+}
+
+p{
+font-family: lucida console;
+color:#00f91d; 
+align-self:center;  
+}
+
+footer{
+color:#10e9ed;
+text-shadow: 1px 1px #2fa1a3;  
+}
+
+input:invalid {
+  background-color: #ffdddd;
+}
+form:invalid {
+  border: 5px solid #ffdddd;
+}
+input:valid {
+  background-color: #ddffdd;
+}
+form:valid {
+  border: 5px solid #ddffdd;
+}
+input:required {
+  border-color: #800000;
+  border-width: 3px;
+}
+body {
+  background-color: transparent;
+  background-image:url(https://media2.giphy.com/media/xUbVzuNjpWe0E/giphy.gif)
+}
+@media only screen and (max-width: 600px) {
+body {
+  background-color: transparent;
+  background-image:url(https://media2.giphy.com/media/xUbVzuNjpWe0E/giphy.gif)    
+  }   
+    
+.column {
+   width: 100%;
+   height:auto; 
+  }
+}
+
+input.submit {
+font-family: book antiqua; 
+color:#ed1070;  
+}
+  
